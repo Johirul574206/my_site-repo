@@ -92,9 +92,15 @@ section {
 }
 h1 {
   font-size: 50px;
+  font-weight: 900;
 }
 h1 span {
-  color: orange;
+  color: tomato;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
 }
 .half-width img {
   width: 100%;
@@ -115,8 +121,9 @@ p {
   background-repeat: no-repeat;
   background-position: right;
 }
-h2 {
-  font-size: 30px;
+
+/* -----------------------experiences area start------------------------------------ */
+.Myexparience {
   text-align: center;
   margin-bottom: 5%;
 }
@@ -143,7 +150,15 @@ h2 {
   border-image-slice: 1;
 }
 .text {
-  padding-left: 20px;
+  padding: 0px 20px;
+}
+
+.goal {
+  text-align: right;
+  padding: 60px 40px 5px 5px;
+  font-size: 16px;
+  font-weight: 900;
+  /* font-style: italic; */
 }
 footer p {
   text-align: center;
